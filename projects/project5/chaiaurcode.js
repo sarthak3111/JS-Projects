@@ -15,7 +15,9 @@ let startchanging = function(){
    const bgcchange=function(){
     document.body.style.backgroundColor=random()
    }
+   if(intervalid==null){
    intervalid=setInterval(bgcchange,1000)
+}
 
 }
 let stopchanging = function(){
